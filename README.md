@@ -32,6 +32,15 @@
 - Feedback form - html and css
 - Feedback form - react
 
+- Favicon, could use https://favicon.io/
+
+## NPM Packages:
+
+- [normalize](https://necolas.github.io/normalize.css/)
+  Small CSS file that provides cross-browser consistency in the default styling of HTML elements.
+- [Styled Components](https://styled-components.com/)
+  Logic and styles are set in a component, provide better readability, prevent name collisions and give the ability to apply javascript logic
+
 ## Google docs
 
 [up-to-date docs for the team](https://docs.google.com/document/d/1181fbmrvRpGzMngEoJc9XEuPhTc7G6yH_UxpRkAQH4k/edit?usp=sharing)
