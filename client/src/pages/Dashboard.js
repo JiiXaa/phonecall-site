@@ -1,11 +1,11 @@
-const Homepage = () => {
+const Dashboard = () => {
   return (
     <>
       <div className='classes here'>
-        <h1>Homepage</h1>
+        <h1>Dashboard</h1>
       </div>
     </>
   );
 };
 
-export default Homepage;
+export default Dashboard;

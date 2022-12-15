@@ -9,6 +9,7 @@
   --backgroundColor: #4f5d75;
   --textColor: #fff;
   --primaryColor: #e56b6f;
+  --primaryColor-50: rgba(229, 107, 111, 0.5);
 
   /* Fonts */
   --bodyFont: Arial, Helvetica, sans-serif;
@@ -90,4 +91,11 @@ button:disabled {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.head {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

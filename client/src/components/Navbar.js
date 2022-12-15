@@ -7,7 +7,10 @@ const Navbar = () => {
       <p>🥦LOGO🥦</p>
       <ul>
         <li>
-          <Link to='/'>Homepage</Link>
+          <Link to='/homepage'>Home</Link>
+        </li>
+        <li>
+          <Link to='/'>Dashboard</Link>
         </li>
         <li>
           <Link to='/register'>Register</Link>
@@ -21,7 +24,7 @@ const WrapperStyled = styled.nav`
   position: fixed;
   width: 100%;
   height: 3rem;
-  background-color: var(--primaryColor);
+  background-color: var(--primaryColor-50);
   display: flex;
   align-items: center;
 
