@@ -1,0 +1,37 @@
+{
+  "name": "phonecall-site",
+  "version": "1.0.0",
+  "description": "Connect With People",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server --ignore client",
+    "client": "npm start --prefix client",
+    "start": "concurrently --kill-others-on-fail -c \"bgMagenta.bold,bgBlue.bold\" \" npm run server \" \" npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiiXaa/phonecall-site.git"
+  },
+  "keywords": [
+    "phonecall",
+    "site",
+    "connect",
+    "people",
+    "Zoom API"
+  ],
+  "author": "JiiXaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiiXaa/phonecall-site/issues"
+  },
+  "homepage": "https://github.com/JiiXaa/phonecall-site#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
