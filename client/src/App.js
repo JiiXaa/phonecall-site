@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Homepage, Register } from './pages';
+import { Homepage, Register, Error } from './pages';
 import { Navbar } from './components';
 
 import styled from 'styled-components';
@@ -20,7 +20,7 @@ function App() {
           ></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/homepage' element={<Homepage />}></Route>
-          <Route path='*' element={<div>Error</div>}></Route>
+          <Route path='*' element={<Error />}></Route>
         </Routes>
       </BrowserRouter>
     </>
