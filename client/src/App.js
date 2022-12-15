@@ -15,6 +15,7 @@ function App() {
             element={
               <WrapperStyled>
                 <h1>Here Magic Happens! 😎</h1>
+                <h2>test pull from Max</h2>
               </WrapperStyled>
             }
           ></Route>
