@@ -1,9 +1,13 @@
+import styled from 'styled-components';
+
 const Homepage = () => {
   return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
+    <WrapperStyled>
+      <h1>Homepage</h1>;
+    </WrapperStyled>
   );
 };
+
+const WrapperStyled = styled.div``;
 
 export default Homepage;

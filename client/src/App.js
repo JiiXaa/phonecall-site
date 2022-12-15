@@ -1,25 +1,29 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './pages/Homepage';
+import { Homepage, Register } from './pages';
+import { Navbar } from './components';
 
 import styled from 'styled-components';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <WrapperStyled>
-              <h1>Here Magic Happens! 😎</h1>
-            </WrapperStyled>
-          }
-        ></Route>
-        <Route path='/register' element={<div>Register</div>}></Route>
-        <Route path='/homepage' element={<Homepage />}></Route>
-        <Route path='*' element={<div>Error</div>}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <WrapperStyled>
+                <h1>Here Magic Happens! 😎</h1>
+              </WrapperStyled>
+            }
+          ></Route>
+          <Route path='/register' element={<Register />}></Route>
+          <Route path='/homepage' element={<Homepage />}></Route>
+          <Route path='*' element={<div>Error</div>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
