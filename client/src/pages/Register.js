@@ -1,7 +1,7 @@
 const Register = () => {
   return (
     <>
-      <div className='classes here'>
+      <div className='sign-up-div'>
         <h1>Sign Up</h1>
         <h2>Create a free account with your email.</h2>
         <form>
