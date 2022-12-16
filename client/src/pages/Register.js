@@ -433,6 +433,7 @@ const Register = () => {
             <label for="city">Your city of residence:</label>
             <input type="text" id="city" name="city">
           </fieldset>
+          <button type="submit"></button>
         </form>
       </div>
     </>
