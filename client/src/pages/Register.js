@@ -5,7 +5,7 @@ const Register = () => {
         <h1>Register</h1>
         <form>
           <fieldset>
-            <legend>Personal details</legend>
+            <legend>Personal Details</legend>
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="first_name" required>
             <br>
@@ -16,7 +16,7 @@ const Register = () => {
             <input type="email" id="email" name="email" required>
           </fieldset>
           <fieldset>
-            <legend>Account details</legend>
+            <legend>Account Details</legend>
             <label for="username">Create a username:</label>
             <input type="text" id="username" name="username" required>
             <br>
@@ -25,6 +25,25 @@ const Register = () => {
             <br>
             <label for="password2">Confirm your password:</label>
             <input type="password" id="password2" name="password2" required>
+          </fieldset>
+          <fieldset>
+            <legend>Your Location</legend>
+            <label for="timezone">Your time zone:</label>
+            <select id="timezone" name="timezone" required>
+              <option></option>
+            </select>
+            <br>
+            <label for="country">Your country of residence:</label>
+            <select id="country" name="country" required>
+              <option></option>
+            </select>
+            <br>
+            <label for="city">Your city of residence:</label>
+            <input list="city_list" id="city" name="city" type="text">
+              <datalist id="city_list">
+                <option value=""></option>
+                <option value=""></option>
+              </datalist>
           </fieldset>
         </form>
       </div>
