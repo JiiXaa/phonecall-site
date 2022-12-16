@@ -174,7 +174,7 @@ const Register = () => {
 	          </select>
             <br>
             <label for="country">Your country of residence:</label>
-            <select id="country" name="country">
+            <select id="country" name="country" required>
               <option>country</option>
               <option value="AF">Afghanistan</option>
               <option value="AX">Åland Islands</option>
@@ -230,7 +230,7 @@ const Register = () => {
               <option value="CD">Congo - Kinshasa</option>
               <option value="CK">Cook Islands</option>
               <option value="CR">Costa Rica</option>
-              <option value="CI">Côte d’Ivoire</option>
+              <option value="CI">Côte d'Ivoire</option>
               <option value="HR">Croatia</option>
               <option value="CU">Cuba</option>
               <option value="CW">Curaçao</option>
@@ -431,11 +431,7 @@ const Register = () => {
             </select>
             <br>
             <label for="city">Your city of residence:</label>
-            <input list="city_list" id="city" name="city" type="text">
-              <datalist id="city_list">
-                <option value=""></option>
-                <option value=""></option>
-              </datalist>
+            <input type="text" id="city" name="city">
           </fieldset>
         </form>
       </div>
