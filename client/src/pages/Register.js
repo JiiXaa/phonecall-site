@@ -11,6 +11,9 @@ const Register = () => {
             <br>
             <label for="lname">Last Name:</label>
             <input type="text" id="lname" name="last_name">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
           </fieldset>
         </form>
       </div>
