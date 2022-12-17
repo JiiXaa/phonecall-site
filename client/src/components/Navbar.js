@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <WrapperStyled>
-      <p>🥦LOGO🥦</p>
+      <p>🎄FestiveFriends</p>
       <ul>
         <li>
           <Link to='/homepage'>Home</Link>
