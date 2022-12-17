@@ -30,6 +30,8 @@ body {
   font-weight: 400;
   line-height: 1.75;
   text-align: center;
+  height: 100%;
+  overflow: hidden;
 }
 
 h1,
@@ -74,7 +76,7 @@ small,
 }
 
 a {
-  color: #b37b55;
+  color: #fff;
   text-decoration: none;
   letter-spacing: var(--letterSpacing);
 }
@@ -119,6 +121,12 @@ ul {
   padding: 7% 15%;
 }
 
+
+.navbar-container {
+  padding: 3% 15%;
+}
+
+
 .title-heading-box {
   display: flex;
   align-items: center;
@@ -132,27 +140,30 @@ ul {
 
 /* Main Section */
 
-#main_section .container-fluid {
-  padding: 3% 15% 7%;
+#homepage_main .container-fluid {
+  padding: 1% 15% 7%;
   text-align: left;
 }
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 0rem;
 }
 
 .navbar a.link-active {
   text-decoration: underline;
 }
 
-
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   color: bisque;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color:rgb(229, 107, 111);
 }
 
 .nav-item {
@@ -173,6 +184,6 @@ ul {
 /* Main Image */
 
 .main-page-image {
-  width: 90%;
-  border-radius: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
