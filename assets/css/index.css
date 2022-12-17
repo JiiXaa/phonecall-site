@@ -125,6 +125,12 @@ ul {
   padding: 7% 15%;
 }
 
+
+.navbar-container {
+  padding: 3% 15%;
+}
+
+
 .title-heading-box {
   display: flex;
   align-items: center;
@@ -138,15 +144,15 @@ ul {
 
 /* Main Section */
 
-#main_section .container-fluid {
-  padding: 3% 15% 7%;
+#homepage_main .container-fluid {
+  padding: 1% 15% 7%;
   text-align: left;
 }
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 0rem;
 }
 
 .navbar a.link-active {

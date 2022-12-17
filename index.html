@@ -21,36 +21,40 @@
   </head>
   
   <body>
+    
+    <!-- Nav Bar -->
 
-    <main id="main_section">
+    <div class="container-fluid navbar-container">
+      
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand">FestiveFriends</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link link-active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="join-call.html">Start/Join Call</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
+    </div>
+
+    <!-- Main -->
+    
+    <main id="homepage_main">
+      
       <div class="container-fluid">
 
-        <!-- Nav Bar -->
-
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand">FestiveFriends</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link link-active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="join-call.html">Start/Join Call</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="feedback.html">Feedback</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <!-- Title -->
-
-        <div class="row main-content-box">
+        <div class="row">
 
           <div class="col-lg-6 title-heading-box">
             <div>
@@ -60,13 +64,13 @@
               <button type="button" class="btn btn-lg btn-outline-light call-btn">Join Call</button>
             </div>
           </div>
-
+    
           <div class="col-lg-6 title-image-box">
             <img class="main-page-image" src="./assets/images/homepage-image-square.jpg" alt="three people sitting in front of a christmas tree and smiling"/>
           </div>
-
+    
         </div>
-
+    
       </div>
 
     </main>
