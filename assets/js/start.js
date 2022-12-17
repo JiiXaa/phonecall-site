@@ -442,7 +442,7 @@ async function joinMeeting(newMeeting) {
   }
 
   //create New Token
-  // tokenGeneration();
+ tokenGeneration();
 
   const options = {
     method: "POST",
@@ -746,4 +746,6 @@ function toggleControls() {
 // let see_id = document.getElementById("meetingid").value;
 // document.getElementById("join-call").textContent = see_id
 // console.log(see_id);
+
+// console.log(meetingId)
 
