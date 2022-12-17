@@ -6,7 +6,7 @@ const Homepage = () => {
     <>
       <section id="title">
 
-        <div className='container-fluid title-section-container'>
+        <div className='container-fluid'>
 
           <div className="row">
 

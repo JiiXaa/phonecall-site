@@ -107,6 +107,12 @@ ul {
   text-align: left;
 }
 
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 .homepage-image {
   width: 200px;
   border-radius: 50%;
