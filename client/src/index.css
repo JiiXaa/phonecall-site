@@ -15,8 +15,8 @@
   --primaryColor-50: rgba(229, 107, 111, 0.5);
 
   /* Fonts */
-  --bodyFont: Arial, Helvetica, sans-serif;
-  --headingFont: sans-serif;
+  --bodyFont:'Montserrat', sans-serif;
+  --headingFont: 'Montserrat', sans-serif;
   --small-text: 0.875rem;
 
   /* Other */
@@ -42,7 +42,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
   margin-bottom: 1.38rem;
   font-family: var(--headingFont);
