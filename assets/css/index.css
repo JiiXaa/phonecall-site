@@ -1,6 +1,3 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
-
 *,
 ::after,
 ::before {
@@ -15,8 +12,8 @@
   --primaryColor-50: rgba(229, 107, 111, 0.5);
 
   /* Fonts */
-  --bodyFont: Arial, Helvetica, sans-serif;
-  --headingFont: sans-serif;
+  --bodyFont: 'Montserrat', sans-serif;
+  --headingFont: 'Montserrat', sans-serif;
   --small-text: 0.875rem;
 
   /* Other */
@@ -36,17 +33,19 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: var(--textColor);
+  text-align: center;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
   margin-bottom: 1.38rem;
   font-family: var(--headingFont);
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.3;
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
@@ -103,33 +102,31 @@ ul {
   align-items: center;
 }
 
-/* Homepage Styling */
+/* Main Page Styling */
 
 /* Headings */
 
 .big-heading {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #b37b55;
 }
 
 .sub-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 .title-heading-box {
   display: flex;
   align-items: center;
-}
-
-/* Containers */
-
-.container-fluid {
-  padding: 7% 15%;
 }
 
 /* Sections */
@@ -139,22 +136,44 @@ ul {
   color: #b37b55;
 }
 
-/* Title Section */
+/* Main Section */
 
-#title .container-fluid {
+#main_section .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
 }
 
-/* Sign Up Button */
+/* Navigation Bar */
 
-.signup-btn {
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: bisque;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Start/Join Call Buttons */
+
+.call-btn {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Main Image */
 
-.homepage-image {
+.main-page-image {
   width: 90%;
   border-radius: 100%;
 }
@@ -163,17 +182,4 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* Media Query */
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .homepage-image {
-    position: static;
-    transform: rotate(0);
-  }
 }
