@@ -4,7 +4,7 @@ import homepage_image from './main-homepage-image.jpg';
 const Homepage = () => {
   return (
     <>
-      <div className='classes here'>
+      <div className='main_homepage_div'>
         <h1>Forge new friendships this festive season!</h1>
         <h2>Sign Up. Connect. Chat.</h2>
         <button>Sign Up</button>
