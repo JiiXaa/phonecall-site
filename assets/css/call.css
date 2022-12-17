@@ -6,7 +6,7 @@
   border-radius: 2px;
 } */
 body {
-  background-color: #212032;
+  background-color: #3a1509;
   overflow: scroll;
 }
 .text-white {
@@ -22,14 +22,14 @@ body {
   color: #1e1d1c;
 }
 .primary {
-  background-color: #fa4c3b;
+  background-color: #3a1509;
 }
 .secondary {
-  background-color: #1e1d1c;
+  background-color: #3a1509;
 }
 
 .main-bg {
-  background-color: #1e1d1c;
+  background-color: #3a1509;
 }
 .video-frame {
   width: 300px;
@@ -54,7 +54,7 @@ body {
 #joinPage,
 .home-page {
   position: absolute;
-  background-color: #212032;
+  background-color: #3a1509;
   width: 100%;
   height: 100%;
   z-index: 999;
@@ -79,7 +79,7 @@ body {
 }
 
 input[type="text"] {
-  background-color: #212032;
+  background-color: #3a1509;
   color: aliceblue;
   height: 60px;
   width: 450px;
@@ -89,7 +89,7 @@ input[type="text"] {
   margin-top: -15px;
 }
 input[type="text"]:hover {
-  background-color: #212032;
+  background-color: #7a412d;
   color: aliceblue;
   border: 1px solid grey;
 }
