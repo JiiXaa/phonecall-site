@@ -81,10 +81,6 @@ a {
   letter-spacing: var(--letterSpacing);
 }
 
-a:hover {
-  color: #fff;
-}
-
 a,
 button {
   line-height: 1.15;
