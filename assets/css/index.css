@@ -166,6 +166,10 @@ ul {
   font-weight: bold;
 }
 
+.navbar-brand:hover {
+  color:rgb(229, 107, 111);
+}
+
 .nav-item {
   padding: 0 18px;
 }
