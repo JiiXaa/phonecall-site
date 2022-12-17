@@ -100,6 +100,13 @@ ul {
   align-items: center;
 }
 
+/* Homepage styling */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 .homepage-image {
   width: 200px;
   border-radius: 50%;

@@ -4,12 +4,12 @@ import homepage_image from '../assets/images/main-homepage-image.jpg';
 const Homepage = () => {
   return (
     <>
-      <section id="title" className='title-section'>
+      <section id="title">
 
         <div className='container-fluid title-section-container'>
 
           <div className="row">
-            
+
             <div className="col-lg-6">
               <h1 className="big-heading">Forge new friendships this festive season!</h1>
               <h2>Sign Up. Connect. Chat.</h2>
