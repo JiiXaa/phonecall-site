@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <WrapperStyled>
-      <p>🥦LOGO🥦</p>
+      <p>🎄FestiveFriends</p>
       <ul>
         <li>
           <Link to='/homepage'>Home</Link>
@@ -13,7 +13,7 @@ const Navbar = () => {
           <Link to='/'>Dashboard</Link>
         </li>
         <li>
-          <Link to='/register'>Register</Link>
+          <Link to='/register'>Sign Up</Link>
         </li>
       </ul>
     </WrapperStyled>
