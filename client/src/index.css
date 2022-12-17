@@ -113,6 +113,10 @@ ul {
   line-height: 1.5;
 }
 
+.signup-btn {
+  margin: 5% 3% 5% 0;
+}
+
 .homepage-image {
   width: 200px;
   border-radius: 50%;
