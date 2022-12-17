@@ -486,6 +486,7 @@ async function joinMeeting(newMeeting) {
       }
     );
     document.getElementById("meetingid").value = meetingId;
+    document.getElementById("join-call").value = meetingId;
     startMeeting(token, meetingId, joinMeetingName);
   }
 
@@ -635,37 +636,6 @@ function addDomEvents() {
     meeting.end();
     window.location.reload();
   });
-
-  // //startVideo button events [playing VIDEO.MP4]
-  // startVideoBtn.addEventListener("click", async () => {
-  //   meeting.startVideo({ link: "/video.mp4" });
-  // });
-
-  // //end video playback
-  // stopVideoBtn.addEventListener("click", async () => {
-  //   meeting.stopVideo();
-  // });
-  // //resume paused video
-  // resumeVideoBtn.addEventListener("click", async () => {
-  //   meeting.resumeVideo();
-  // });
-  // //pause playing video
-  // pauseVideoBtn.addEventListener("click", async () => {
-  //   meeting.pauseVideo({ currentTime: videoPlayback.currentTime });
-  // });
-  // //seek playing video
-  // seekVideoBtn.addEventListener("click", async () => {
-  //   meeting.seekVideo({ currentTime: 40 });
-  // });
-  // //startRecording
-  btnStartRecording.addEventListener("click", async () => {
-    console.log("btnRecording is clicked");
-    meeting.startRecording();
-  });
-  // //Stop Recording
-  btnStopRecording.addEventListener("click", async () => {
-    meeting.stopRecording();
-  });
 }
 
 async function toggleMic() {
@@ -773,6 +743,7 @@ function toggleControls() {
   }
 }
 
-// let see_id = document.getElementById("copy_meeting_id").textContent;
-// document.getElementById("join-call").textContent = copy_meeting_id
+// let see_id = document.getElementById("meetingid").value;
+// document.getElementById("join-call").textContent = see_id
 // console.log(see_id);
+
