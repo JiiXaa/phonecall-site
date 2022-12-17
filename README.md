@@ -16,9 +16,9 @@
 - Wireframes 1 and 2 - LM
 - Wireframes 3-5 - Max
 - Website images
-- Navbar html and css
-- Home page html and css
+- Navbar html and css - LM
+- Home page html and css - LM
 - VideoSDK live api
 - Feedback form - html and css
 
-- Favicon, could use https://favicon.io/
+- Favicon, could use https://favicon.io/ - LM
