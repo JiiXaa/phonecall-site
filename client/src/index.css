@@ -1,3 +1,6 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
 *,
 ::after,
 ::before {
@@ -6,7 +9,7 @@
 
 :root {
   /* Colors */
-  --backgroundColor: #1D1C14;
+  --backgroundColor: #1c1c15;
   --textColor: #B37B55;
   --primaryColor: #9e572d;
   --primaryColor-50: rgba(229, 107, 111, 0.5);
@@ -100,36 +103,77 @@ ul {
   align-items: center;
 }
 
-/* Homepage styling */
+/* Homepage Styling */
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-  text-align: left;
-  background-color: #3a1509;
-}
-
-/*
-.row {
-  background-color: #9e572d;
-}
-
-.col-lg-6 {
-  background-color: aquamarine;
-}
-*/
+/* Headings */
 
 .big-heading {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
+.sub-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title-heading-box {
+  display: flex;
+  align-items: center;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #3a1509;
+  color: #b37b55;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Sign Up Button */
+
 .signup-btn {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Image */
+
 .homepage-image {
-  width: 60%;
+  width: 90%;
   border-radius: 100%;
-  right: 30%;
+}
+
+.title-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .homepage-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
