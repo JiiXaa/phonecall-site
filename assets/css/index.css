@@ -6,14 +6,10 @@
 
 :root {
   /* Colors */
-  --backgroundColor: #1c1c15;
-  --textColor: #b37b55;
   --primaryColor: #9e572d;
   --primaryColor-50: rgba(229, 107, 111, 0.5);
 
   /* Fonts */
-  --bodyFont: 'Montserrat', sans-serif;
-  --headingFont: 'Montserrat', sans-serif;
   --small-text: 0.875rem;
 
   /* Other */
@@ -28,11 +24,11 @@ html {
 } /*16px*/
 
 body {
-  background: var(--backgroundColor);
-  font-family: var(--bodyFont);
+  background-color: #3a1509;
+  color: #b37b55;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: var(--textColor);
   text-align: center;
 }
 
@@ -44,7 +40,7 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 1.38rem;
-  font-family: var(--headingFont);
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 1.3;
   text-transform: capitalize;
@@ -78,7 +74,7 @@ small,
 }
 
 a {
-  color: var(--textColor);
+  color: #b37b55;
   text-decoration: none;
   letter-spacing: var(--letterSpacing);
 }
@@ -110,7 +106,6 @@ ul {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
-  color: #b37b55;
 }
 
 .sub-heading {
@@ -118,7 +113,7 @@ ul {
   line-height: 1.5;
 }
 
-/* Container */
+/* Containers */
 
 .container-fluid {
   padding: 7% 15%;
@@ -129,11 +124,10 @@ ul {
   align-items: center;
 }
 
-/* Sections */
-
-.colored-section {
-  background-color: #3a1509;
-  color: #b37b55;
+.title-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Main Section */
@@ -148,6 +142,11 @@ ul {
 .navbar {
   padding: 0 0 4.5rem;
 }
+
+.navbar a.link-active {
+  text-decoration: underline;
+}
+
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -176,10 +175,4 @@ ul {
 .main-page-image {
   width: 90%;
   border-radius: 100%;
-}
-
-.title-image-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
