@@ -6,9 +6,9 @@
 
 :root {
   /* Colors */
-  --backgroundColor: #4f5d75;
-  --textColor: #fff;
-  --primaryColor: #e56b6f;
+  --backgroundColor: #1D1C14;
+  --textColor: #B37B55;
+  --primaryColor: #9e572d;
   --primaryColor-50: rgba(229, 107, 111, 0.5);
 
   /* Fonts */
