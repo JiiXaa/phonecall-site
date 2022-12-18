@@ -35,7 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  overflow: hidden;
 }
 
 main {
@@ -206,4 +205,30 @@ ul {
 .copyright {
   font-size: 0.8rem;
   margin: 0;
+}
+
+/* Media Query */
+
+@media (min-width: 900px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 460px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
 }
