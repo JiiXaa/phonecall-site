@@ -754,5 +754,5 @@ function toggleControls() {
 //   // let meetingid = id_to_pass
 // };
 
-document.getElementById("join-call").textContent = meetingId;
-document.getElementById("join-call-two").textContent = document.getElementById("meetingid").value;
+// document.getElementById("join-call").textContent = document.getElementById("meetingid").textContent;
+// document.getElementById("join-call-two").textContent = document.getElementById("meetingid").value;
