@@ -210,7 +210,7 @@ ul {
 /* Feedback Page Styling */
 
 #feedback_main .container-fluid {
-  padding: 5% 15% 7%;
+  padding: 3% 15% 7%;
 }
 
 .feedback-heading {
@@ -220,7 +220,7 @@ ul {
 
 .form-container {
   margin: 0;
-  padding-top: 10%;
+  padding-top: 5rem;
   }
 
 .form-inputs {
