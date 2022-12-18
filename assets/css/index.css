@@ -233,18 +233,35 @@ ul {
   }
 }
 
-@media (max-width: 300px) {
-  .navbar-brand {
-    font-size: 0.9rem;
-  }
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-item {
     padding: 0 17px;
   }
   
   .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-heading {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 335px) {
+  .navbar-brand {
     font-size: 1rem;
   }
 }
