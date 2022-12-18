@@ -260,6 +260,12 @@ ul {
   }
 }
 
+@media (max-width: 991px) {
+  .title-heading-box {
+    text-align: center;
+  }
+}
+
 @media (max-width: 335px) {
   .navbar-brand {
     font-size: 1rem;
