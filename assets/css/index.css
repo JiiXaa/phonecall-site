@@ -196,10 +196,10 @@ ul {
 /* Footer */
 
 .footer-container {
-  /*background-color: #1c1c15;*/
   padding: 0.5% 15%;
+  /*background-color: #1c1c15;
   position: absolute;
-  bottom: 0;
+  bottom: 0;*/
 }
 
 .copyright {
@@ -212,6 +212,12 @@ ul {
 @media (min-width: 1200px) {
   body {
     overflow: hidden;
+  }
+
+  .footer-container {
+    /*background-color: #1c1c15;*/
+    position: absolute;
+    bottom: 0;
   }
 }
 
