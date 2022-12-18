@@ -42,6 +42,7 @@
 </head>
 
 <body>
+  <!-- Code from VideoSDK's Official documentation -->
   <!--call-home-page start-->
   <div class="home-page" id="home-page">
     <div class="flex" style="margin-top: 300px">
@@ -190,6 +191,11 @@
           <span class="material-icons"> content_copy </span>
           <div class="copyContent">Copy Meeting Code</div>
         </button>
+        <button id="btnAllow" type="button" class="btn btn-outline-light" style="height: fit-content; position: relative"
+          onclick="">
+          <span class="material-icons"> content_copy </span>
+          <div class="copyContent">Allow Participant</div>
+        </button>
       </div>
 
       <div class="col-9" style="margin-top: 13px; position: static; align-content: right">
@@ -217,17 +223,7 @@
               aria-expanded="false">
               <span class="material-icons"> mic </span>
             </button>
-            <!--<div class="dropdown-menu" style="background-color: #212032">
-                <a class="dropdown-item" href="#"
-                  >Default-Microphone Array(Realtek(R) Audio)</a
-                >
-                <a class="dropdown-item" href="#"
-                  >Communications-Microphone Array(Realtek(R) Audio)</a
-                >
-                <a class="dropdown-item" href="#"
-                  >Microphone Array(Realtek(R) Audio)</a
-                >
-              </div>-->
+
           </div>
           <!--main page toggle web-cam-->
           <div class="btn-group" id="main-pg-cam-off" style="display: inline-block">
@@ -241,10 +237,7 @@
               aria-expanded="false" id="videoCamOn">
               <span class="material-icons"> videocam </span>
             </button>
-            <!--<div class="dropdown-menu" style="background-color: #212032">
-                <a class="dropdown-item" href="#">Integrated Camera</a>
-                <a class="dropdown-item" href="#">OBS Virtual Camera</a>
-              </div>-->
+
           </div>
           <!--screen share-->
           <button type="button" id="btnScreenShare" class="btn btn-outline-light ms-1">

@@ -1,3 +1,4 @@
+// Code from VideoSDK's Official documentation
 // Constants
 const API_BASE_URL = "https://api.videosdk.live";
 
@@ -10,22 +11,15 @@ let contentRaiseHand = document.getElementById("contentRaiseHand");
 let btnScreenShare = document.getElementById("btnScreenShare");
 let videoScreenShare = document.getElementById("videoScreenShare");
 let btnRaiseHand = document.getElementById("btnRaiseHand");
-// let btnStopPresenting = document.getElementById("btnStopPresenting");
 let btnSend = document.getElementById("btnSend");
 let participantsList = document.getElementById("participantsList");
 let videoCamOff = document.getElementById("main-pg-cam-off");
 let videoCamOn = document.getElementById("main-pg-cam-on");
-
 let micOn = document.getElementById("main-pg-unmute-mic");
 let micOff = document.getElementById("main-pg-mute-mic");
-
-//recording
 let btnStartRecording = document.getElementById("btnStartRecording");
 let btnStopRecording = document.getElementById("btnStopRecording");
-
-//videoPlayback DIV
 let videoPlayback = document.getElementById("videoPlayback");
-
 let meeting = "";
 // Local participants
 let localParticipant;
@@ -85,7 +79,7 @@ async function validateMeeting() {
     };
 
     const result = await fetch(url, options)
-      .then((response) => response.json()) //result will have meeting id
+      .then((response) => response.json())
       .catch((error) => {
         console.error("error", error);
         alert("Invalid Meeting Id");
@@ -319,62 +313,7 @@ async function startMeeting(token, meetingId, name) {
     //remove it from participant list participantId;
     document.getElementById(`p-${participant.id}`).remove();
   });
-  //chat message event
-  // meeting.on("chat-message", (chatEvent) => {
-  //   const { senderId, text, timestamp, senderName } = chatEvent;
-  //   const parsedText = JSON.parse(text);
-
-  //   if (parsedText?.type == "chat") {
-  //     const chatBox = document.getElementById("chatArea");
-  //     const chatTemplate = `
-  //     <div style="margin-bottom: 10px; ${
-  //       meeting.localParticipant.id == senderId && "text-align : right"
-  //     }">
-  //       <span style="font-size:12px;">${senderName}</span>
-  //       <div style="margin-top:5px">
-  //         <span style="background:${
-  //           meeting.localParticipant.id == senderId ? "grey" : "crimson"
-  //         };color:white;padding:5px;border-radius:8px">${
-  //       parsedText.message
-  //     }<span>
-  //       </div>
-  //     </div>
-  //     `;
-  //     chatBox.insertAdjacentHTML("beforeend", chatTemplate);
-  //   }
-  // });
-
-  // //video state changed
-  // meeting.on("video-state-changed", (videoEvent) => {
-  //   const { status, link, currentTime } = videoEvent;
-
-  //   switch (status) {
-  //     case "started":
-  //       videoPlayback.setAttribute("src", link);
-  //       videoPlayback.play();
-  //       break;
-  //     case "stopped":
-  //       console.log("stopped");
-  //       videoPlayback.removeAttribute("src");
-  //       videoPlayback.pause();
-  //       videoPlayback.load();
-  //       break;
-  //     case "resumed":
-  //       videoPlayback.play();
-  //       break;
-  //     case "paused":
-  //       videoPlayback.currentTime = currentTime;
-  //       videoPlayback.pause();
-  //       break;
-
-  //     case "seeked":
-  //       break;
-
-  //     default:
-  //       break;
-  //   }
-  // });
-
+ 
   //recording events
   meeting.on("recording-started", () => {
     console.log("RECORDING STARTED EVENT");
@@ -464,7 +403,6 @@ async function joinMeeting(newMeeting) {
   }
 
   //create New Meeting
-  //get new meeting if new meeting requested;
   if (newMeeting && TOKEN != "") {
     const url = `${API_BASE_URL}/api/meetings`;
     const options = {
@@ -490,9 +428,7 @@ async function joinMeeting(newMeeting) {
     // document.getElementById("join-call").value = meetingId;
     startMeeting(token, meetingId, joinMeetingName);
   }
-
   //set meetingId
-  
 }
 
 
@@ -523,7 +459,6 @@ function createAudioElement(pId) {
 }
 
 //setting up tracks
-
 function setTrack(stream, audioElement, participant, isLocal) {
   if (stream.kind == "video") {
     if (isLocal) {
@@ -745,14 +680,3 @@ function toggleControls() {
     videoCamOff.style.display = "inline-block";
   }
 }
-
-
-// function getMeetingIds() {
-//   // let get_id = document.getElementById("meetingid").value;
-//   // console.log(get_id);
-//   document.getElementById("join-call").textContent = "hey";
-//   // let meetingid = id_to_pass
-// };
-
-// document.getElementById("join-call").textContent = document.getElementById("meetingid").textContent;
-// document.getElementById("join-call-two").textContent = document.getElementById("meetingid").value;
