@@ -6,6 +6,9 @@ var fs = require('fs');
 // middleware  
 
 app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.static('public'))
+
+console.log(__dirname + 'public')
 
 // STEP 1: Read the existing data from json file  
 
@@ -72,4 +75,4 @@ app.listen(5000, function () {
   console.log("server started on port 5000")
 })
 
-module.exports = app;
+// module.exports = app;
