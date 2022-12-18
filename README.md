@@ -41,7 +41,7 @@ Website structure
 * HTML
 * CSS
 * JavaScript
-#### Frameworks and Programs used...............
+#### Frameworks and Programs used.
 * Google fonts was used to pick and import fonts to my project.
 * GitHub
 GitHub was used to store source code by git add . git commit and git push.

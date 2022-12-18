@@ -207,3 +207,25 @@ ul {
   font-size: 0.8rem;
   margin: 0;
 }
+
+/*Feedback form*/
+.form-inputs {
+  display: grid;
+  justify-items: center;
+}
+
+.text-inputs {
+  display: grid;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width:40vw;
+}
+
+#message {
+  height:20vh;
+}
+
+.container-form {
+  margin-top: 6rem;
+}
