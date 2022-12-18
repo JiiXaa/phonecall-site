@@ -65,21 +65,25 @@
     
     <main id="feedback_main">
 
-      <h1>
-        We appreciate your feedback!
-      </h1>
-      
-      <div class="container-form">
-        <form action="contact.html" method="get" id="contact-form" class="form-inputs">
+      <div class="container-fluid">
 
-          <input class="text-inputs" type="text" name="name" id="name-1" placeholder="Name" required>
-          <input class="text-inputs" type="email" name="email" id="email" placeholder="Email" required>
-          <textarea class="text-inputs" name="message" id="message" placeholder="Your message"></textarea>
-          <input type="submit" value="Submit" id="submit" class="button-submit-button">
+        <h1 class="feedback-heading">
+          We appreciate your feedback!
+        </h1>
+        
+        <div class="form-container">
+          <form action="contact.html" method="get" id="contact-form" class="form-inputs">
+  
+            <input type="text" class="text-inputs" name="name" id="name-1" placeholder="Name">
+            <input type="email" class="text-inputs" name="email" id="email" placeholder="Email" required>
+            <textarea class="text-inputs" name="message" id="message" placeholder="Your message" required></textarea>
+            <input type="submit" class="button-submit-button" id="submit" value="Submit">
+  
+          </form>
+        </div>
 
-        </form>
       </div>
-      
+
     </main>
 
     <!-- Footer -->
