@@ -64,3 +64,10 @@ To test various screen-size responsiveness.
 5. Feedback
 6. Footer
 ## Development Stage:
+
+# Resources
+[VideoSDK](https://docs.videosdk.live/)
+
+[VideoSDK Javascript Example](https://github.com/videosdk-live/videosdk-rtc-javascript-sdk-example)
+
+[Bootstrap 5](https://getbootstrap.com/)
