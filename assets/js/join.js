@@ -11,7 +11,7 @@ createBtn.addEventListener("click", function () {
             method: "POST",
             body: JSON.stringify({join_id: grab_id}),
             headers: {
-              'Content-Type': 'application/x-www-form-urlencoded'
+              'Content-Type': 'application/json'
             }
         })
     }, 5000);
