@@ -33,6 +33,11 @@ let meeting_data = require("./meeting-data.json")
 //   });
 // });
 
+
+app.get('/api/meetings', function (req, res) { 
+  res.send('Hello World!')
+})
+
 app.post("/api/meetings", function (req, res) {
 
   let join_id = req.body.join_id;
