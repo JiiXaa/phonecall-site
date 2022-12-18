@@ -35,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 main {
@@ -197,8 +197,10 @@ ul {
 /* Footer */
 
 .footer-container {
-  padding: 1% 15%;
   /*background-color: #1c1c15;*/
+  padding: 0.5% 15%;
+  position: absolute;
+  bottom: 0;
 }
 
 .copyright {
