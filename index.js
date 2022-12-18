@@ -2,12 +2,13 @@ const express = require('express');
 const app = express();
 var fs = require('fs');
 
-// middleware
+require('dotenv').config();
 
+const PORT = process.env.PORT || 3030;
+
+// middleware
 app.use(express.json());
 app.use(express.static('public'));
-
-console.log(__dirname + 'public');
 
 // STEP 1: Read the existing data from json file
 
@@ -68,6 +69,6 @@ app.post('/api/meetings', function (req, res) {
   });
 });
 
-app.listen(5000, function () {
-  console.log('server started on port 5000');
+app.listen(PORT, () => {
+  console.log(`server started on port ${PORT}`);
 });
