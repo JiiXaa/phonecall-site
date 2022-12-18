@@ -71,3 +71,5 @@ app.post("/api/meetings", function (req, res) {
 app.listen(5000, function () {
   console.log("server started on port 5000")
 })
+
+module.exports = app;
