@@ -23,7 +23,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet" />
-  <title>Join Call - Festive Friends</title>
+  <title>Start Call - Festive Friends</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
@@ -87,10 +87,14 @@
               </div>
             </div>
           </div>
+          <div>
+            <p style="color:aliceblue;" id="join-call">Test div to grab join call code</p>
+          </div>
         </center>
       </div>
     </div>
   </div>
+  
   <!--join page container start-->
   <div id="joinPage" class="main-bg" style="display: none; margin-left: -15px">
     <div style="margin: auto; display: flex">
@@ -316,10 +320,15 @@
       </div>
     </div>
   </div>
-
+  
   <script src="assets/js/start.js"></script>
   <script src="https://sdk.videosdk.live/js-sdk/0.0.54/videosdk.js"></script>
   <script src="assets/js/config.js"></script>
+  <script src="assets/js/join.js"></script>
+  <script type="text/javascript">
+    
+    document.getElementById("join-call").textContent = document.getElementById("meetingid").textContent;
+  </script>
  
 </body>
 <div id="viewer"></div>
