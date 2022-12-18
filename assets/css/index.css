@@ -18,7 +18,8 @@
   --max-width: 1170px;
 }
 
-/* Html elements */
+/* HTML Elements */
+
 html {
   font-size: 100%;
 } /*16px*/
@@ -30,8 +31,15 @@ body {
   font-weight: 400;
   line-height: 1.75;
   text-align: center;
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   overflow: hidden;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -100,7 +108,7 @@ ul {
   align-items: center;
 }
 
-/* Main Page Styling */
+/* Index Page Styling */
 
 /* Headings */
 
@@ -121,11 +129,9 @@ ul {
   padding: 7% 15%;
 }
 
-
 .navbar-container {
   padding: 3% 15%;
 }
-
 
 .title-heading-box {
   display: flex;
@@ -186,4 +192,18 @@ ul {
 .main-page-image {
   width: 100%;
   border-radius: 50%;
+}
+
+/* Footer */
+
+.footer-container {
+  /*background-color: #1c1c15;*/
+  padding: 0.5% 15%;
+  position: absolute;
+  bottom: 0;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin: 0;
 }
