@@ -59,8 +59,8 @@ To test various screen-size responsiveness.
 # SECTIONS OF WEBSITE
 1. Navigation Bar
 2. Home/Landing Page section
-3. Sign Up
-4. Dashboard
-5. Sign Out/Exit
+3. Start Call
+4. Join Call
+5. Feedback
 6. Footer
 ## Development Stage:
