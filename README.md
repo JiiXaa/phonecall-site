@@ -41,7 +41,7 @@ Website structure
 * HTML
 * CSS
 * JavaScript
-#### Frameworks and Programs used.
+#### Frameworks and Programs used...............
 * Google fonts was used to pick and import fonts to my project.
 * GitHub
 GitHub was used to store source code by git add . git commit and git push.
@@ -64,3 +64,10 @@ To test various screen-size responsiveness.
 5. Feedback
 6. Footer
 ## Development Stage:
+
+# Resources
+[VideoSDK](https://docs.videosdk.live/)
+
+[VideoSDK Javascript Example](https://github.com/videosdk-live/videosdk-rtc-javascript-sdk-example)
+
+[Bootstrap 5](https://getbootstrap.com/)

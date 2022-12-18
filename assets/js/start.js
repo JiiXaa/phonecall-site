@@ -45,6 +45,7 @@ let meetingCode = "";
 let screenShareOn = false;
 let joinPageVideoStream = null;
 
+
 async function tokenGeneration() {
   if (TOKEN != "") {
     token = TOKEN;
@@ -486,12 +487,14 @@ async function joinMeeting(newMeeting) {
       }
     );
     document.getElementById("meetingid").value = meetingId;
-    document.getElementById("join-call").value = meetingId;
+    // document.getElementById("join-call").value = meetingId;
     startMeeting(token, meetingId, joinMeetingName);
   }
 
   //set meetingId
+  
 }
+
 
 // creating video element
 function createVideoElement(pId) {
@@ -743,9 +746,13 @@ function toggleControls() {
   }
 }
 
-// let see_id = document.getElementById("meetingid").value;
-// document.getElementById("join-call").textContent = see_id
-// console.log(see_id);
 
-// console.log(meetingId)
+// function getMeetingIds() {
+//   // let get_id = document.getElementById("meetingid").value;
+//   // console.log(get_id);
+//   document.getElementById("join-call").textContent = "hey";
+//   // let meetingid = id_to_pass
+// };
 
+// document.getElementById("join-call").textContent = document.getElementById("meetingid").textContent;
+// document.getElementById("join-call-two").textContent = document.getElementById("meetingid").value;
