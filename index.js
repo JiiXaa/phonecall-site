@@ -48,8 +48,8 @@ app.post('/api/meetings', function (req, res) {
   let joinMeetingData = {
     join_id,
   };
-  // res.status(200).json(joinMeetingData);
-  res.send(joinMeetingData);
+  res.status(200).json(joinMeetingData);
+  // res.send(joinMeetingData);
 
   // STEP 2: add new user data to users object using push method
   meeting_data.push(joinMeetingData) / // STEP 3: Writing data in a JSON file

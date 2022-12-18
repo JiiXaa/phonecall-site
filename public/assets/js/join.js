@@ -1,6 +1,19 @@
+// let createBtn = document.getElementById('meetingJoinButton');
+
 document.addEventListener('DOMContentLoaded', (event) => {
-  console.log('DOM fully loaded and parsed');
-  
+  fetch('/api/meetings')
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      let meetingList = document.getElementById('meetingList');
+      meetingList.innerHTML = '';
+      for (let i = 0; i < data.length; i++) {
+        let meeting = data[i];
+        let meetingItem = document.createElement('li');
+        meetingItem.innerHTML = meeting.join_id;
+        meetingList.appendChild(meetingItem);
+      }
+    });
 });
 
 const displayMeetingsBtn = document.getElementById('btnAllow');
@@ -11,23 +24,9 @@ displayMeetingsBtn.addEventListener('click', function () {
   console.log('stringify', JSON.stringify({ join_id: grab_id }));
   fetch('/api/meetings', {
     method: 'POST',
-    body: JSON.parse({ join_id: grab_id }),
+    body: JSON.stringify({ join_id: grab_id }),
     headers: {
       'Content-Type': 'application/json',
     },
   });
 });
-
-// fetch('/api/meetings')
-//         .then(response => response.json())
-//         .then(data => {
-//         console.log(data)
-//         let meetingList = document.getElementById('meetingList');
-//         meetingList.innerHTML = "";
-//         for (let i = 0; i < data.length; i++) {
-//             let meeting = data[i];
-//             let meetingItem = document.createElement('li');
-//             meetingItem.innerHTML = meeting.join_id;
-//             meetingList.appendChild(meetingItem);
-//         }
-//         });
