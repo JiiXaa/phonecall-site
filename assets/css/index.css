@@ -232,3 +232,13 @@ ul {
     font-size: 0.9rem;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav-item {
+    padding: 0 17px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+}
