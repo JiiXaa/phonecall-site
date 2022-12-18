@@ -207,6 +207,28 @@ ul {
   margin: 0;
 }
 
+/*Feedback form*/
+.form-inputs {
+  display: grid;
+  justify-items: center;
+}
+
+.text-inputs {
+  display: grid;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width:40vw;
+}
+
+#message {
+  height:20vh;
+}
+
+.container-form {
+  margin-top: 6rem;
+  }
+
 /* Media Query */
 
 @media (min-width: 1200px) {
@@ -219,7 +241,7 @@ ul {
     position: absolute;
     bottom: 0;
   }
-}
+
 
 @media (max-width: 460px) {
   .navbar-brand {
@@ -270,4 +292,5 @@ ul {
   .navbar-brand {
     font-size: 1rem;
   }
+
 }
