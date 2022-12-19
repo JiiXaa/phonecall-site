@@ -74,6 +74,14 @@ To test various screen-size responsiveness.
 
 ### Screenshots
 
+![Screenshot Home Page](./public/assets/images/screenshot1-homepage.png)
+![Screenshot Call Page](./public/assets/images/screenshot2-call-page.png)
+![Screenshot Feedback Page](./public/assets/images/screenshot3-feedback-page.png)
+
+### Am I Responsive?
+
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://phonecall-site-seven.vercel.app/)
+
 # Resources
 [VideoSDK](https://docs.videosdk.live/)
 
