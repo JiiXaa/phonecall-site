@@ -1,4 +1,3 @@
-// let createBtn = document.getElementById('meetingJoinButton');
 
 document.addEventListener('DOMContentLoaded', (event) => {
   fetch('/api/meetings')
