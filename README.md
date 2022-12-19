@@ -79,8 +79,8 @@ To test various screen-size responsiveness.
 
 ### Am I Responsive?
 
-![amiresponsive](./public/assets/images/amiresponsive.PNG)
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://phonecall-site-seven.vercel.app/)
+![amiresponsive](./public/assets/images/amiresponsive2.PNG)
 
 # Resources
 [VideoSDK](https://docs.videosdk.live/)
