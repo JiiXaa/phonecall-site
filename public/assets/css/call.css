@@ -173,6 +173,14 @@ main {
   margin-left: 5%;
 }
 
+#meetingJoinButton {
+  border-radius: 5px;
+  margin-left: 7px;
+  margin-top: -5px;
+  height: 50px;
+  height: 40px;
+}
+
 /*
 #want-to-join {
   margin-left: 5%;
@@ -490,4 +498,72 @@ input[type="text"]:hover {
   margin-right: 10px;
   height: fit-content;
   display: none;
+}
+
+
+
+
+/* Media Queries */
+
+/* Medium Screens */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav-item {
+    padding: 0 17px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-heading-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-group-append {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #meetingJoinButton {
+    margin-top: 5%;
+  }
+}
+
+/* Small Screens */
+
+@media (max-width: 576px) {
+  
+  #brand {
+    font-size: 1.25rem;
+  }
+
+  #bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  #brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  #brand {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 335px) {
+  #brand {
+    font-size: 1rem;
+  }
 }
