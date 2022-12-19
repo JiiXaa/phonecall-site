@@ -1,29 +1,30 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap"); */
 
-/* .btn {
-  padding: 7px;
-  border: none;
-  border-radius: 2px;
-} */
 body {
   background-color: #3a1509;
   overflow: scroll;
 }
+
 .text-white {
   color: white;
 }
+
 .text-black {
   color: black;
 }
+
 .text-primary {
   color: #fa4c3b;
 }
+
 .text-secondary {
   color: #1e1d1c;
 }
+
 .primary {
   background-color: #3a1509;
 }
+
 .secondary {
   background-color: #3a1509;
 }
@@ -31,11 +32,12 @@ body {
 .main-bg {
   background-color: #3a1509;
 }
+
 .video-frame {
   width: 300px;
   height: 300px;
-  /* height: 650px; */
-  /* height: 100%; */
+  /* height: 650px;
+  height: 100%; */
   border-radius: 10px;
   /* transform: rotate("90"); */
   object-fit: cover;
@@ -43,6 +45,7 @@ body {
   border: 1px solid lightslategrey;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 /* *BODY  PAGE */
 body {
   width: 100%;
@@ -74,6 +77,7 @@ body {
 .hide {
   display: none;
 }
+
 .class-control {
   position: relative;
 }
@@ -84,15 +88,16 @@ input[type="text"] {
   height: 60px;
   width: 450px;
   border: 1px solid gray;
-
   border-radius: 5px;
   margin-top: -15px;
 }
+
 input[type="text"]:hover {
   background-color: #7a412d;
   color: aliceblue;
   border: 1px solid grey;
 }
+
 .flex-container {
   flex-direction: column;
   align-items: center;
@@ -112,6 +117,7 @@ input[type="text"]:hover {
   object-fit: cover;
   /* background-color: #ccc; */
 }
+
 .video-view .video-content {
   position: absolute;
   /* width: 100%;
@@ -132,6 +138,7 @@ input[type="text"]:hover {
   border-radius: 25px;
   margin-left: 30px;
 }
+
 .mute-btn-content {
   height: 50px;
   margin-top: -20px;
@@ -141,9 +148,11 @@ input[type="text"]:hover {
   border-radius: 25px;
   margin-left: 30px;
 }
+
 .bi {
   margin-top: -20px;
 }
+
 #micButton:hover {
   border: none;
 }
@@ -153,21 +162,25 @@ input[type="text"]:hover {
 }
 
 .grid-page {
-  background-color: #212032;
+  background-color: #3a1509;
 }
+
 .vertical-line {
   margin-left: 30px;
   /* border-right: 1px solid white; */
 }
+
 .dropdown-item {
   color: white;
   background-color: #212032;
 }
+
 .dropdown-item:hover {
   color: white;
   background-color: #212032;
   cursor: pointer;
 }
+
 .copyContent {
   color: black;
   background-color: rgb(136, 132, 132);
@@ -176,18 +189,22 @@ input[type="text"]:hover {
   visibility: hidden;
   width: 100px;
 }
+
 #btnCopy:hover .copyContent {
   visibility: visible;
 }
+
 .ms-1 {
   margin-left: 5px;
 }
+
 #video-frame-container {
   height: 400px;
   width: 90%;
   /* border: 1px solid yellow; */
   border-radius: 10px;
 }
+
 #videoContainer {
   height: 100vh;
   width: 100vw;
@@ -197,7 +214,8 @@ input[type="text"]:hover {
   flex-wrap: wrap;
   /* flex-direction: column; */
 }
-#videoContainer > div {
+
+#videoContainer>div {
   border: "1px solid red ";
   /* max-width: 33.33%; */
   height: 100%;
@@ -231,6 +249,7 @@ input[type="text"]:hover {
   cursor: pointer;
   visibility: hidden;
 }
+
 #totalParticipants {
   /* font-size: xx-large; */
   color: #e0e0e0;
@@ -247,6 +266,7 @@ input[type="text"]:hover {
   /* position: absolute; */
   border-radius: 10px;
 }
+
 .chat-wrapper {
   height: 100%;
   width: 0;
@@ -263,6 +283,7 @@ input[type="text"]:hover {
   background-color: #212032;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 #chatHeading {
   /* font-size: xx-large; */
   color: #e0e0e0;
@@ -273,10 +294,12 @@ input[type="text"]:hover {
   cursor: pointer;
   visibility: hidden;
 }
+
 #txtChat {
   position: fixed;
   bottom: 0;
 }
+
 #btnSend {
   position: fixed;
   bottom: 0;
