@@ -115,7 +115,7 @@
 
         <div class="container-fluid col-auto" id="create-meeting">
           <center>
-            <button class="btn btn-lg btn-outline-light call-btn" style="border-radius: 5px" id="meetingJoinButton"
+            <button class="btn btn-lg btn-outline-light call-btn" style="border-radius: 5px" id="meetingCreateButton"
               onclick="joinMeeting(true)">
               Create Meeting
             </button>
@@ -128,36 +128,43 @@
         <center style="color: grey">OR</center>
         </center>
       </div>
-      <div class="flex-container" style="margin-top: 25px">
+
+      <div class="flex-container" id="bottom-container" style="margin-top: 25px">
         <center>
-          <div class="col-auto" id="enter-code-join-meeting">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <div class="input-group-text" style="
-                      background-color: #3a1509;
-                      padding: 12px;
-                      margin-top: -15px;
-                    ">
-                  <img src="assets/images/icons/svg-path.svg" height="25px" width="25px" />
+
+            <div class="row" id="enter-code-join-meeting">
+
+                <div class="input-group mb-3 col-md-auto">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text" style="
+                          background-color: #3a1509;
+                          padding: 12px;
+                          margin-top: -15px;
+                        ">
+                      <img src="assets/images/icons/svg-path.svg" height="25px" width="25px" />
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" id="joinMeetingId" placeholder="Enter Code" />
+
+                  <div class="input-group-append col-md-auto">
+
+                    <button class="btn btn-outline-light call-btn"
+                    id="meetingJoinButton" onclick="validateMeeting()">
+                      Join Meeting
+                    </button>
+
+                  </div>
+
                 </div>
-              </div>
-              <input type="text" class="form-control" id="joinMeetingId" placeholder="Enter Meeting Code" />
-              <div class="input-group-append">
-                <button class="btn btn-outline-light call-btn" style="
-                      border-radius: 5px;
-                      margin-left: 7px;
-                      margin-top: -5px;
-                      height: 50px;
-                      height: 40px;
-                    " id="meetingJoinButton" onclick="validateMeeting()">
-                  Join Meeting
-                </button>
-              </div>
+
+            </div>
+
+          <div class="row">
+            <div>
+              <p id="want-to-join" class="text-white">Want to join an existing meeting? Use one of the below codes!</p>
             </div>
           </div>
-          <div>
-            <p id="want-to-join" class="text-white">Want to join an existing meeting? Use one of the below codes!</p>
-          </div>
+
           <div>
             <ul id="meetingList"></ul>
           </div>
