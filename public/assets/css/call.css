@@ -200,14 +200,14 @@ main {
   text-decoration: underline;
 }
 
-.navbar-brand {
+#brand {
   font-family: 'Ubuntu', sans-serif;
   color: bisque;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.navbar-brand:hover {
+#brand:hover {
   color:rgb(229, 107, 111);
 }
 
