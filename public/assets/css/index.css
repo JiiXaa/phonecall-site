@@ -191,6 +191,14 @@ ul {
 .main-page-image {
   width: 100%;
   border-radius: 50%;
+  padding: 5% 0;
+}
+
+/* Description paragraph */
+
+#description {
+  padding-top: 3%;
+  text-align: center;
 }
 
 /* Footer */
