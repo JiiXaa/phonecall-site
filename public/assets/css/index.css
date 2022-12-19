@@ -197,9 +197,6 @@ ul {
 
 .footer-container {
   padding: 0.5% 15%;
-  /*background-color: #1c1c15;
-  position: absolute;
-  bottom: 0;*/
 }
 
 .copyright {
@@ -242,20 +239,6 @@ ul {
 
 
 /* Media Queries */
-
-/* Large Screens */
-
-@media (min-width: 1200px) {
-  body {
-    overflow: hidden;
-  }
-
-  .footer-container {
-    /*background-color: #1c1c15;*/
-    position: absolute;
-    bottom: 0;
-  }
-}
 
 /* Medium Screens */
 
