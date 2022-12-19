@@ -6,7 +6,7 @@ Live link: https://phonecall-site-seven.vercel.app/
 ### Am I Responsive?
 
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://phonecall-site-seven.vercel.app/)
-![amiresponsive](./public/assets/images/amiresponsive2.PNG)
+![amiresponsive](./public/assets/images/amiresponsive3.PNG)
 
 ## User Experience (UX)
 ## User Stories
