@@ -64,17 +64,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-}¨
-
-@media (min-width: 1200px) {
-  #home-page body {
-    overflow: hidden;
-  }
-
-  .footer-container {
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 
