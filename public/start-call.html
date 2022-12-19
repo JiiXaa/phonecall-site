@@ -256,7 +256,7 @@
   <!-- <script src="./zujo-sdk-2.0.0.min.js"></script> -->
 
   <div class="grid-page flex-container" id="gridPpage" style="display: none; position: relative">
-    <div class="row" style="height: 70px; width: 100%; border-bottom: 1px solid grey">
+    <div class="row" style="height: 70px; width: 100%;">
       <div class="col-3 d-flex justify-content-start" style="margin-top: 19px">
         <input type="text" style="background-color:#3a1509" class="form-control navbar-brand" id="meetingid" readonly />
 
@@ -265,12 +265,16 @@
           <span class="material-icons"> content_copy </span>
           <div class="copyContent">Copy Meeting Code</div>
         </button>
-
+       <div>
         <button id="btnAllow" type="button" class="btn btn-outline-light ml-2" onclick="">
-          <span class="">Allow New Friend</span>
-          <!-- <div class="copyContent">Allow Participant</div> -->
+          <div>Make Public</div>
+          <div class="copyContent">Make a friend! Clicking this button will allow other visitors to this site to join your meeting.</div>
+
         </button>
+       </div>
+        
       </div>
+      
 
       <div class="col-9" style="margin-top: 13px; position: static; align-content: right">
         <div class="d-flex justify-content-end">
@@ -345,11 +349,16 @@
         </div>
       </div>
     </div>
+    <!-- <button id="btnAllow" type="button" class="btn btn-outline-light ml-2" onclick="">
+      <div>Allow New Friend</div>
+      <!-- <div class="copyContent">Allow Participant</div> -->
+    </button> -->
 
     <video id="videoScreenShare"></video>
 
     <div class="row" id="videoContainer"></div>
   </div>
+  
 
   <!--raise hand pop-up-->
   <div id="contentRaiseHand" class="alert alert-info col-2" style="
