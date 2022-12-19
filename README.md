@@ -80,6 +80,7 @@ To test various screen-size responsiveness.
 
 ### Am I Responsive?
 
+![amiresponsive](./public/assets/images/amiresponsive.PNG)
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://phonecall-site-seven.vercel.app/)
 
 # Resources
