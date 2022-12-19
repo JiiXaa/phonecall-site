@@ -530,6 +530,11 @@ input[type="text"]:hover {
     align-items: center;
   }
 
+  #enter-code-join-meeting {
+    width: 99%;
+    margin-left: 0;
+  }
+
   #meetingJoinButton {
     margin-top: 5%;
   }
