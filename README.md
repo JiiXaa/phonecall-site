@@ -60,12 +60,19 @@ Interactive buttons
 To test various screen-size responsiveness.
 # SECTIONS OF WEBSITE
 1. Navigation Bar
-2. Home/Landing Page section
-3. Start Call
-4. Join Call
+2. Home/Index Page
+3. Start/Join Call
 5. Feedback
 6. Footer
 ## Development Stage:
+
+### Wireframes
+
+![Wireframe Home Page](./public/assets/images/wireframe1-homepage.png)
+![Wireframe Call Page](./public/assets/images/wireframe2-call-page.jpg)
+![Wireframe Feedback Page](./public/assets/images/wireframe3-feedback.jpg)
+
+### Screenshots
 
 # Resources
 [VideoSDK](https://docs.videosdk.live/)
