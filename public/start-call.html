@@ -79,7 +79,7 @@
   
   <!--call-home-page start-->
 
-  <div class="home-page" id="home-page">
+  <div id="home-page" class="home-page">
 
     <!-- Nav Bar -->
 
@@ -93,10 +93,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link link-active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="start-call.html">Start/Join Call</a>
+              <a class="nav-link  link-active" href="start-call.html">Start/Join Call</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="feedback.html">Feedback</a>
@@ -109,16 +109,19 @@
 
     <!-- Main -->
 
-    <div class="flex main" style="margin-top: 300px">
-      <div class="flex-container col-auto">
-        <center>
-          <button class="btn btn-lg btn-outline-light call-btn" style="border-radius: 5px" id="meetingJoinButton"
-            onclick="joinMeeting(true)">
-            Create Meeting
-          </button>
+    <main id="callpage_main">
 
-      </div>
-      <div class="flex-container">
+      <div class="container-fluid" id="button-container">
+
+        <div class="container-fluid col-auto" id="create-meeting">
+          <center>
+            <button class="btn btn-lg btn-outline-light call-btn" style="border-radius: 5px" id="meetingJoinButton"
+              onclick="joinMeeting(true)">
+              Create Meeting
+            </button>
+        </div>
+
+        <div class="flex-container" id="hr-or">
         </center>
         <br />
         <hr style="background-color: grey; width: 300px" />
@@ -127,7 +130,7 @@
       </div>
       <div class="flex-container" style="margin-top: 25px">
         <center>
-          <div class="col-auto" style="width: 500px; margin-left: 70px">
+          <div class="col-auto" id="enter-code-join-meeting">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <div class="input-group-text" style="
@@ -153,14 +156,21 @@
             </div>
           </div>
           <div>
-            <p class="text-white">Want to join an existing meeting? Use one of the below codes!</p>
+            <p id="want-to-join" class="text-white">Want to join an existing meeting? Use one of the below codes!</p>
           </div>
           <div>
             <ul id="meetingList"></ul>
           </div>
         </center>
       </div>
-    </div>
+
+
+
+      </div>
+
+
+
+    </main>
 
     <!-- Footer -->
 
