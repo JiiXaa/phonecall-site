@@ -80,9 +80,12 @@ To test various screen-size responsiveness.
 
 ### Screenshots
 
-![Screenshot Home Page](./public/assets/images/screenshot1-homepage.png)
-![Screenshot Call Page](./public/assets/images/screenshot2-call-page.png)
-![Screenshot Feedback Page](./public/assets/images/screenshot3-feedback-page.png)
+![Screenshot Home Page](./public/assets/images/screenshot1-homepage.PNG)
+
+![Screenshot Call Page](./public/assets/images/screenshot2-call-page.PNG)
+
+![Screenshot Feedback Page](./public/assets/images/screenshot3-feedback-page.PNG)
+
 ![Screenshot Joining List](./public/assets/images/screenshot-4-join-list.jpg)
 
 # Existing Bugs
