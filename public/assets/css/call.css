@@ -83,6 +83,53 @@ body {
   margin: 0;
 }
 
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0rem;
+}
+
+.navbar a.link-active {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: bisque;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color:rgb(229, 107, 111);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Footer */
+
+.footer-container {
+  padding: 0.5% 15%;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
 
 /* *JOINPAGE */
 #joinPage,
