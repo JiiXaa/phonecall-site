@@ -64,7 +64,6 @@ To test various screen-size responsiveness.
 3. Start/Join Call
 5. Feedback
 6. Footer
-## Development Stage:
 
 ### Wireframes
 
@@ -89,3 +88,7 @@ To test various screen-size responsiveness.
 [VideoSDK Javascript Example](https://github.com/videosdk-live/videosdk-rtc-javascript-sdk-example)
 
 [Bootstrap 5](https://getbootstrap.com/)
+
+[EmailJS](https://www.emailjs.com/docs/)
+
+[Vercel](https://vercel.com/docs)
