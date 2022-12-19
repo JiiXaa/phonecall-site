@@ -16,29 +16,8 @@ let meeting_data = require('./meeting-data.json');
 
 // API routes
 
-// app.get('/', (req, res) => {
-//   res.sendFile(__dirname + '/join-call.html');
-// })
-
-// test this after
-// app.get('/', function (req, res) {
-//   var options = {
-//     root: path.join(__dirname)
-//   };
-
-//   var fileName = 'join-call.html';
-//   res.sendFile(fileName, options, function (err) {
-//     if (err) {
-//       next(err);
-//     } else {
-//       console.log('Sent:', fileName);
-//     }
-//   });
-// });
-
 app.get('/api/meetings', function (req, res) {
   fs.readFile('meeting-data.json', 'utf8', function (err, data) {
-    // Display the file content
     res.status(200).json(JSON.parse(data));
   });
 });
@@ -50,7 +29,6 @@ app.post('/api/meetings', function (req, res) {
     join_id,
   };
   res.status(200).json(joinMeetingData);
-  // res.send(joinMeetingData);
 
   // STEP 2: add new user data to users object using push method
   meeting_data.push(joinMeetingData) / // STEP 3: Writing data in a JSON file

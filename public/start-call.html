@@ -229,7 +229,7 @@
 
       <!--join screen right grid start-->
       <div class="join-right" style="width: 350px">
-        <h1 style="text-align: center">JOIN PAGE</h1>
+        <h1 style="text-align:center; color:aliceblue;">JOIN PAGE</h1>
         <div>
           <div class="class-control row" style="margin-top: 120px">
             <div class="col-1">
@@ -240,7 +240,7 @@
             </div>
             <div class="col-2" style="margin-top: -5px">
               <button id="meetingJoinButton" onclick="joinMeeting()"
-                style="margin-left: 50px; width: 130px; border-radius: 5px" class="btn btn-primary">
+                style="margin-left: 50px; width: 130px; border-radius: 5px" class="btn btn-outline-light call-btn">
                 Join Meeting
               </button>
             </div>
@@ -256,8 +256,8 @@
   <!-- <script src="./zujo-sdk-2.0.0.min.js"></script> -->
 
   <div class="grid-page flex-container" id="gridPpage" style="display: none; position: relative">
-    <div class="row" style="height: 70px; width: 100%; border-bottom: 1px solid grey">
-      <div class="col-3 d-flex justify-content-start" style="margin-top: 19px">
+    <div class="row" style="height: 70px; width: 100%;">
+      <div class="col-3 d-flex justify-content-start" style="margin-top: 25px">
         <input type="text" style="background-color:#3a1509" class="form-control navbar-brand" id="meetingid" readonly />
 
         <button id="btnCopy" type="button" class="btn btn-outline-light" style="height: fit-content; position: relative"
@@ -270,7 +270,10 @@
           <span class="">Allow New Friend</span>
           <!-- <div class="copyContent">Allow Participant</div> -->
         </button>
+   
+        
       </div>
+      
 
       <div class="col-9" style="margin-top: 13px; position: static; align-content: right">
         <div class="d-flex justify-content-end">
@@ -345,11 +348,13 @@
         </div>
       </div>
     </div>
+    </button> -->
 
     <video id="videoScreenShare"></video>
 
     <div class="row" id="videoContainer"></div>
   </div>
+  
 
   <!--raise hand pop-up-->
   <div id="contentRaiseHand" class="alert alert-info col-2" style="
